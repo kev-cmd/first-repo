@@ -4,8 +4,7 @@
         <handlers>
             <add name="httpPlatformHandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified"/>
         </handlers>
-        <httpPlatform processPath="%JAVA_HOME%\bin\java.exe"
-                      arguments="-Djava.net.preferIPv4Stack=true -Dserver.port=%HTTP_PLATFORM_PORT% -jar &quot;%HOME%\site\wwwroot\sfe_jar;">
+        <httpPlatform processPath="%JAVA_HOME%\bin\java.exe" arguments="-Djava.net.preferIPv4Stack=true -Dserver.port=%HTTP_PLATFORM_PORT% -jar &quot;%HOME%\site\wwwroot\sfe.jar&quot;">
         </httpPlatform>
     </system.webServer>
 </configuration>
