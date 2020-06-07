@@ -6,25 +6,23 @@ SFEats helps users to find food trucks close to them in San Fransisco Area. This
 The API module contains REST API endpoints for the SFEats application. 
 
 ### Project Structure: 
-- Controller : The class is flagged as a @RestController, meaning it is ready for use by Spring MVC to handle web requests.
-- Service : The service component class is interface.
-- ServiceImpl : The class that implements the Service Interface with @Service annotation. These class files contains bussiness 		logic n a different layer, separated from @RestController class file.
-- DTO : This object is created to be used as Data Transfer Objects for future integration with front-end consumer
+- **Controller :** The class is flagged as a @RestController, meaning it is ready for use by Spring MVC to handle web 	requests.
+- **Service :** The service component class is interface.
+- **ServiceImpl :** The class that implements the Service Interface with @Service annotation. These class files contains 	bussiness logic in a different layer, separated from @RestController class file.
+- **DTO :** This object is created to be used as Data Transfer Objects for future integration with front-end consumer
 
 ### Technology Stack:
-- Spring Boot for application configuration
-- Gradle configuration for building, testing and running the application
-- Mockito framework for JUnit Testing
-- Project is intended to be source controlled within GitHub
+- ***Spring Boot*** for application configuration 
+- ***Gradle*** configuration for building, testing and running the application
+- ***Mockito*** framework for JUnit Testing
+- Project is intended to be source controlled within ***GitHub***
 
 ### Developing Locally
  - Required : 
-		* Git 
-		* Any suitable IDE
+		Git, Any suitable IDE
  - Recommnded : 
-		* IIntellij IDEA
-		* VSCode
-
+		IIntellij IDEA, VSCode
+ - Steps :  
 	1. Configure Git
 	2. Pull down the code using git
 		You can use the tool you’re most comfortable with 
@@ -38,7 +36,7 @@ The API module contains REST API endpoints for the SFEats application.
 ### Sample API
 
 #### Request: 
-	[food-trucks/location/{latitude}/{longitude}?radius={radius}]
+	food-trucks/location/{latitude}/{longitude}?radius={radius}
                 
 #### Response: 
     [
