@@ -24,19 +24,19 @@ The API module contains REST API endpoints for the SFEats application.
 		IIntellij IDEA, VSCode
  - Steps :  
 	1. Configure Git
-	2. Pull down the code using git
-		You can use the tool you’re most comfortable with 
-		git clone https://github.com/kev-cmd/sfeats-svcs.git
+	2. Pull down the code using git<br/>
+		- You can use the tool you’re most comfortable with <br/>
+		```git clone https://github.com/kev-cmd/sfeats-svcs.git```
 	3. Import project dependency from gradle
-	4. Run server locally
-		./gradlew bootRun
-		For local development, server can be started and hosted on 
-		http://localhost:8080/
+	4. Run server locally<br/>
+		```./gradlew bootRun```  
+		- For local development, server can be started and hosted on. 
+		http://localhost:8080/. 
 
 ### Sample API
 
 #### Request: 
-	food-trucks/location/{latitude}/{longitude}?radius={radius}
+	/food-trucks/location/{latitude}/{longitude}?radius={radius}
                 
 #### Response: 
     [
