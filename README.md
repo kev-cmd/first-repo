@@ -29,14 +29,20 @@ The API module contains REST API endpoints for the SFEats application.
 		```git clone https://github.com/kev-cmd/sfeats-svcs.git```
 	3. Import project dependency from gradle
 	4. Run server locally<br/>
-		```./gradlew bootRun```  
-		- For local development, server can be started and hosted on. 
-		http://localhost:8080/. 
+		  ```./gradlew bootRun```  
+		- For local development, server can be started and hosted on <br/>
+		http://localhost:8080/ 
 
 ### Sample API
 
 #### Request: 
 	/food-trucks/location/{latitude}/{longitude}?radius={radius}
+| Name		      | Description                   |
+| ------------------- |:-----------------------------:|
+| latitude            | Latitude of User location     |
+| longitude           | Longitude of User location    |
+| radius (optional)   | Radius to confine results in  |
+
                 
 #### Response: 
     [
