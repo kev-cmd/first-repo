@@ -10,6 +10,7 @@ The API module contains REST API endpoints for the SFEats application.
 - **Service :** The service component class is interface.
 - **ServiceImpl :** The class that implements the Service Interface with @Service annotation. These class files contains 	bussiness logic in a different layer, separated from @RestController class file.
 - **DTO :** This object is created to be used as Data Transfer Objects for future integration with front-end consumer
+- **ServiceImplTest :** This class will cover unit tests for service implementation.
 
 ### Technology Stack:
 - ***Spring Boot*** for application configuration 
