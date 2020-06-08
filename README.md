@@ -29,6 +29,7 @@ The API module contains REST API endpoints for the SFEats application.
 		- You can use the tool you’re most comfortable with <br/>
 		```git clone https://github.com/kev-cmd/sfeats-svcs.git```
 	3. Import project dependency from gradle
+	4. Enable lombok plugin in IDE:  [ProjectLombok](https://projectlombok.org/setup/overview)
 	4. Run server locally<br/>
 		  ```./gradlew bootRun```  
 		- For local development, server can be started and hosted on <br/>
